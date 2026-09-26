@@ -24,6 +24,7 @@ El proyecto se organiza de la siguiente manera:
 El cuaderno respeta la progresión del guion oficial para dar cumplimiento a las tareas exigidas, incorporando un demostrador interactivo propio:
 
 * **Tarea - Cuenta de píxeles blancos por filas en Canny:** Conteo de píxeles no nulos por filas sobre la imagen procesada por Canny, determinación del valor máximo (`maxfil`) y resaltado mediante primitivas gráficas de las filas que superan o igualan el 0.90 del máximo.
+  ![Tarea 1](assets/Tarea1.png)
 
 * **Tarea - Gradiente de Sobel y Conteo Bidireccional:** Aplicación de umbralizado a la imagen resultante de Sobel (convertida a 8 bits), conteo por filas y columnas, cálculo de los valores máximos y marcado de las líneas que superan el 0.90 del máximo sobre la imagen del mandril, comparando los resultados frente a Canny.
 
